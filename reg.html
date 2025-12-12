@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+    <div class="bg-video">
+        <video autoplay muted loop playsinline>
+            <source src="206540_large.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="main">
+    <h2>Registration Form</h2>
+
+    <form onsubmit="handle(event)">
+        
+        <label>First Name:</label><br>
+        <input type="text" id="fnam" required><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" id="lnam" required><br>
+
+        <label>Enter your mobile no:</label><br>
+        <input type="text" id="mobile" required><br>
+
+        <label>Email:</label><br>
+        <input type="text" id="mail1" required><br>
+
+        <label>Re-enter Email:</label><br>
+        <input type="text" id="mail2" required><br>
+
+        <label>Password:</label><br>
+        <input type="password" id="pass1" required><br>
+
+        <label>Re-enter Password:</label><br>
+        <input type="password" id="pass2" required><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="sex" value="Male"> Male<br>
+        <input type="radio" name="sex" value="Female"> Female<br>
+        <input type="radio" name="sex" value="Others"> Others<br><br>
+
+        <input type="reset">
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+    <script src="reg.js"></script>
+
+</body>
+
+</html>
